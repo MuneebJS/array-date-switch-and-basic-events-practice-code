@@ -75,9 +75,9 @@
 //     }
 // }
 
-//function makeFieldBlur() {
+// function makeFieldBlur() {
 //    this.style.backgroundColor = "green";
-//}
+// }
 
 
 //  var str = prompt("Enter some text");
@@ -140,3 +140,14 @@
 //         alert("email required");
 //     } 
 // }
+
+
+
+//var now = new Date();
+//var getting = now.getTime("July 21, 1950");
+//var diff = getting; - now;
+//var final = diff / (1000 * 60 * 60 * 24) + 1;
+//alert(final.floor);
+
+var par = document.getElementsByTagName("p");
+var textInMiddleParagraph = par[1].innerHTML = "hello dear";
